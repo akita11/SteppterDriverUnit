@@ -10,7 +10,7 @@
 - Grove端子にマイコンなど(M5Stack等)を接続します（ここからの+5V給電が本体の動作に必要です）
 - Grove端子の信号線(DIRとSTP)でモータの回転の向きとステップを制御します。DIR=0/1で回転方向を決定し（実際の回転方向がどちらが時計回りかはA相・B相の配線によって異なる）、STPの立ち上がり（0→1の変化)で1ステップ進みます。
 
-<img src="https://github.com/akita11/StepperDriverUnit/blob/main/StepperDriver_usage" width="240px">
+<img src="https://github.com/akita11/StepperDriverUnit/blob/main/StepperDriver_usage.jpg" width="240px">
 
 Grove端子のピン配置（基板裏面にシルク表記あり）： STP/DIR/+5V/GND
 
